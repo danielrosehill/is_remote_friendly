@@ -1,18 +1,19 @@
 # is_remote_friendly
 
- My objective in creating this repository was to come up with a simple data taxonomy for personal use stratifying companies' according to their level of remote friendliness. 
+[![CSV Data](https://img.shields.io/badge/Data-CSV-blue)](remote_restrictions.csv)
+[![JSON Data](https://img.shields.io/badge/Data-JSON-blue)](remote_restrictions.json)
 
- We're all familiar with the basic three-fold schema for considering whether companies are "remote-friendly" or not. According to this schema, companies are one of the following:
+## Table of Contents
 
- - In office
- - Hybrid  
- - Remote 
-
-The problem with this division is that it's misleading: for reasons of taxation, preference or ... personal preference ...  companies commonly add restrictions to their remote remote-friendly policies. 
-
-In order to build more useful database for personal use, my objective here was to firstly ideate what those *are*. 
+- [Remote-friendly, with caveats](#remote-friendly-with-caveats)
+  - [Candidate geography restrictions](#candidate-geography-restrictions)
+  - [Time-Zone Specific](#time-zone-specific)
+  - [Misc Requirements](#misc-requirements)
+- [Objective](#objective)
 
 # Remote-friendly, with caveats
+
+This repository aims to provide a detailed taxonomy of remote-friendliness caveats that companies often impose on remote positions.
 
 Here are some of the more common restrictions. The restriction for remote employees to be in the office > 0 days per week is not included among them as those companies are **hybrid**.
 
@@ -79,3 +80,9 @@ Some companies might require occasional on-site visits for team meetings, traini
 ### Equipment Provisioning Restrictions
 
 Clarify whether the company provides equipment (laptops, monitors, etc.) or if the remote employee is expected to use their own.
+
+---
+
+## Objective
+
+My objective in creating this repository was to come up with a simple data taxonomy for personal use stratifying companies' according to their level of remote friendliness.
