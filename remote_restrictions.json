@@ -1,0 +1,80 @@
+[
+  {
+    "category": "Candidate Geography Restrictions",
+    "restriction": "US-Only",
+    "description": "Excludes all non-US-based candidates.",
+    "example": "Must be located in the United States to be considered for this role."
+  },
+  {
+    "category": "Candidate Geography Restrictions",
+    "restriction": "EU-only",
+    "description": "Requires applicants to be located in a European Union member state.",
+    "example": "This position is open to candidates residing in EU member states only."
+  },
+  {
+    "category": "Candidate Geography Restrictions",
+    "restriction": "Our Country Only",
+    "description": "Hires candidates only from its own country.",
+    "example": "Applicants must be based in [Company's Country] to be eligible."
+  },
+  {
+    "category": "Candidate Geography Restrictions",
+    "restriction": "Specific State/Province Only (US)",
+    "description": "Restricts positions to candidates in a specific state or province.",
+    "example": "This role is open to residents of [Specific State/Province] only."
+  },
+  {
+    "category": "Candidate Geography Restrictions",
+    "restriction": "Whitelist",
+    "description": "Specifies approved countries for remote candidates.",
+    "example": "We are only able to consider candidates who are currently located in one of the following countries: [List of Countries]."
+  },
+  {
+    "category": "Candidate Geography Restrictions",
+    "restriction": "Blacklist",
+    "description": "Excludes candidates from certain countries.",
+    "example": "We are unable to consider candidates who are currently located in [List of Countries]."
+  },
+  {
+    "category": "Time-Zone Specific",
+    "restriction": "Time zone specific",
+    "description": "Candidates need to be located in a specific time zone (e.g. EST, PST).",
+    "example": "Must be located in the [Time Zone] time zone."
+  },
+  {
+    "category": "Time-Zone Specific",
+    "restriction": "Offset specific",
+    "description": "Candidates need to be within a certain timezone offset relative to the main office.",
+    "example": "Must be located within +/- [Number] hours of [GMT Offset/Time Zone]."
+  },
+  {
+    "category": "Misc Requirements",
+    "restriction": "Internet Speed Requirements",
+    "description": "Requires remote employees to have a minimum internet speed.",
+    "example": "Must have a minimum internet speed of [Speed] Mbps."
+  },
+  {
+    "category": "Misc Requirements",
+    "restriction": "Background Check Requirements",
+    "description": "May necessitate background checks for remote employees.",
+    "example": "Successful completion of a background check may be required."
+  },
+  {
+    "category": "Misc Requirements",
+    "restriction": "Data Security Restrictions",
+    "description": "Imposes restrictions on devices or networks used to access company data.",
+    "example": "Must comply with company data security policies regarding device and network usage."
+  },
+  {
+    "category": "Misc Requirements",
+    "restriction": "On-site Visit Requirements",
+    "description": "Might require occasional on-site visits.",
+    "example": "Occasional travel to our headquarters may be required."
+  },
+  {
+    "category": "Misc Requirements",
+    "restriction": "Equipment Provisioning Restrictions",
+    "description": "Specifies whether the company provides equipment or if the employee uses their own.",
+    "example": "Remote employees are responsible for providing their own equipment."
+  }
+]
